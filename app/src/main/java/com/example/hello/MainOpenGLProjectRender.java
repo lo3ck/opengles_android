@@ -11,7 +11,7 @@ import javax.microedition.khronos.opengles.GL10;
 import android.opengl.GLSurfaceView.Renderer;
 
 public class MainOpenGLProjectRender implements Renderer{
-    private static final in POSITION_COMPONENT_COUNT = 2;
+    private static final int POSITION_COMPONENT_COUNT = 2;
 
     @Override
     public void onSurfaceCreated(GL10 glUnused, EGLConfig config) {
